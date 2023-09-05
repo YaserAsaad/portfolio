@@ -11,8 +11,8 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div className=" bg-slate-50 dark:bg-black dark:text-white">
-        <header className="bg-white shadow-sm text-black sticky z-10 top-0">
+      <div className="relative bg-slate-50 dark:bg-black dark:text-white ">
+        <header className="bg-white shadow-sm text-black fixed left-0 right-0 z-10 top-0">
           <section className=" mx-8 p-4 flex justify-between items-center">
             <m.h1
               className="text-xl font-semibold lg:ml-4 m-2"
@@ -34,7 +34,7 @@ function Navbar() {
               </m.button>
               {/* Desktop */}
               <m.nav
-                className="hidden md:block space-x-6 text-lg font-semibold text-[#2d2e32] "
+                className=" hidden md:block space-x-6 text-lg font-semibold text-[#2d2e32] "
                 initial={{ x: 100 }}
                 animate={{ x: 0 }}
                 transition={{ duration: 0.5, type: "tween" }}
@@ -72,8 +72,6 @@ function Navbar() {
             className={` 
             ${toggle ? "block" : "hidden"}
             absolute top-0 bg-white w-full text-2xl flex-col font-medium `}
-            // initial={{ width: "0%" }}
-            // animate={{ width: "100%" }}
             animate={toggle ? "open" : "closed"}
             transition={{ duration: 0.5 }}
             variants={variants}
