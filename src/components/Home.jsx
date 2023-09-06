@@ -5,10 +5,10 @@ import { motion as m } from "framer-motion";
 import avatar from "/src/assets/avatar.png";
 function Home() {
   return (
-    <>
+    <div id="home" className="mt-[4rem]">
       {/* Mobile */}
       <div className="text-center flex justify-center bg-[#f9f9f9] md:hidden">
-        <div className="max-w-lg flex flex-col items-center">
+        <div className="container max-w-lg flex flex-col items-center">
           <div className="mt-[2rem]">
             <img
               className="morph max-md:w-[20rem] 
@@ -160,7 +160,7 @@ function Home() {
           </m.div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
