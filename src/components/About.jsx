@@ -5,7 +5,7 @@ function About() {
   return (
     <div id="about">
       {/* MOBILE */}
-      <div className="BG lg:hidden bg-white my-[5rem]">
+      <div id="about" className="BG lg:hidden bg-white py-[5rem]">
         <div className=" text-center items-center flex flex-col">
           <div className="">
             <img
@@ -32,7 +32,7 @@ function About() {
         </div>
       </div>
       {/* DESKTOP */}
-      <div className="BG hidden lg:block bg-white my-[6.5rem]">
+      <div id="about" className="BG hidden lg:block bg-white py-[10rem]">
         <div className="flex mx-[6rem] xl:mx-[12rem] xl:justify-between ">
           {/* Img + Img */}
           <div className="mr-[4rem] xl:mr-0 relative">

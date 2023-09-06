@@ -20,7 +20,7 @@ function Navbar() {
               animate={{ x: 0 }}
               transition={{ duration: 0.5, type: "tween" }}
             >
-              <a href="#home">Yaser.dev</a>
+              <a href="#">Yaser.dev</a>
             </m.h1>
             <div>
               <m.button
@@ -40,7 +40,7 @@ function Navbar() {
                 transition={{ duration: 0.5, type: "tween" }}
               >
                 <a
-                  href="#home"
+                  href="#"
                   className="hover:opacity-90 hover:text-[#147efb] duration-200"
                 >
                   Home
@@ -87,7 +87,7 @@ function Navbar() {
               aria-label="mobile"
             >
               <a
-                href="#home"
+                href="#"
                 className="w-full text-center py-6 hover:opacity-90 hover:text-[#147efb] duration-200"
                 onClick={() => setToggle(false)}
               >

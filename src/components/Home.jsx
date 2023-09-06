@@ -113,7 +113,7 @@ function Home() {
                 <img
                   width="40"
                   height="40"
-                  className="hover:-[#147efb]"
+                  className="hover:scale-105 duration-300"
                   src="https://img.icons8.com/material/48/linkedin--v1.png"
                   alt="linkedin--v1"
                 />
@@ -126,6 +126,7 @@ function Home() {
                 <img
                   width="40"
                   height="40"
+                  className="hover:scale-105 duration-300"
                   src="https://img.icons8.com/windows/64/github.png"
                   alt=""
                 />
@@ -133,8 +134,8 @@ function Home() {
             </div>
             {/* tech stack */}
             <div className="flex mt-[6rem] items-center mb-8">
-              <h4 className="mr-2 xl:mr-0 text-md lg:text-lg text-[#2d2e32] xl:tracking-widest">
-                Tech.Stack
+              <h4 className="mr-2 xl:mr-0 text-md lg:text-lg font-semibold text-[#2d2e32] xl:tracking-widest">
+                Tech
               </h4>
               <div className="border-r-2 h-[1.5rem] xl:ml-8 border-black items-center" />
               <div className="ml-2 xl:ml-8 ">
