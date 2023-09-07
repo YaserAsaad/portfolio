@@ -1,5 +1,5 @@
 import React from "react";
-
+import github from "/src/assets/github.png";
 function Footer() {
   return (
     <div className="bg-[#2d2e32] py-[4rem]">
@@ -27,7 +27,7 @@ function Footer() {
             href="https://github.com/YaserAsaad"
             className="cursor-pointer hover:scale-110 duration-200"
           >
-            <img width="40" height="40" src="/src/assets/github.png" alt="" />
+            <img width="40" height="40" src={github} alt="" />
           </a>
         </div>
       </div>

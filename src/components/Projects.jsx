@@ -1,4 +1,8 @@
 import React from "react";
+import friedrich from "/src/assets/friedrich.png";
+import qrates from "/src/assets/qrates.png";
+import stark from "/src/assets/stark.png";
+import bonsai from "/src/assets/bonsai.png";
 
 function Projects() {
   return (
@@ -25,8 +29,8 @@ function Projects() {
               className="shadow-xl shadow-slate-200 rounded-3xl mt-[2rem] h-96 w-80 sm:w-[30rem] sm:h-[24rem] overflow-hidden"
             >
               <img
-                className="w-fit translate-y-0 hover:translate-y-[-90%] transition-transform duration-[12s] delay-0 ease-in-out "
-                src="/src/assets/qrates.png"
+                className="w-fit translate-y-0 hover:translate-y-[-90%] transition-transform duration-[12s] delay-0 ease-in-out rounded-3xl"
+                src={qrates}
                 alt=""
               />
             </a>
@@ -88,8 +92,8 @@ function Projects() {
               className="shadow-xl shadow-slate-200 rounded-3xl mt-[2rem] h-96 w-80 sm:w-[30rem] sm:h-[25rem] overflow-hidden"
             >
               <img
-                className=" translate-y-0 hover:translate-y-[-75%] transition-transform duration-[10s] delay-0 ease-in-out"
-                src="/src/assets/friedrich.png"
+                className=" translate-y-0 hover:translate-y-[-75%] transition-transform duration-[10s] delay-0 ease-in-out rounded-3xl"
+                src={friedrich}
                 alt=""
               />
             </a>
@@ -151,8 +155,8 @@ function Projects() {
               className="shadow-xl shadow-slate-200 rounded-3xl mt-[2rem] h-96 w-80 sm:w-[30rem] sm:h-[24rem] overflow-hidden"
             >
               <img
-                className=" translate-y-0 hover:translate-y-[-50%] transition-transform duration-[10s] delay-0 ease-in-out"
-                src="/src/assets/stark.png"
+                className=" translate-y-0 hover:translate-y-[-50%] transition-transform duration-[10s] delay-0 ease-in-out rounded-3xl"
+                src={stark}
                 alt=""
               />
             </a>
@@ -214,8 +218,8 @@ function Projects() {
               className="shadow-xl shadow-slate-200 rounded-3xl mt-[2rem] h-96 w-80 sm:w-[30rem] sm:h-[24rem] overflow-hidden"
             >
               <img
-                className=" translate-y-0 hover:translate-y-[-65%] transition-transform duration-[10s] delay-0 ease-in-out"
-                src="/src/assets/bonsai.png"
+                className=" translate-y-0 hover:translate-y-[-65%] transition-transform duration-[10s] delay-0 ease-in-out rounded-3xl"
+                src={bonsai}
                 alt=""
               />
             </a>
@@ -293,7 +297,7 @@ function Projects() {
             >
               <img
                 className="w-fit translate-y-0 hover:translate-y-[-90%] transition-transform duration-[12s] delay-0 ease-in-out "
-                src="/src/assets/qrates.png"
+                src={qrates}
                 alt=""
               />
             </a>
@@ -403,12 +407,12 @@ function Projects() {
             {/* IMG */}
             <a
               target="_blank"
-              href="https://nietzsche-n.netlify.app/"
+              href="https://friedrich-n.netlify.app/"
               className="shadow-xl shadow-slate-200 rounded-3xl mr-[1rem] w-[33rem] h-[23rem] overflow-hidden"
             >
               <img
                 className="w-fit translate-y-0 hover:translate-y-[-90%] transition-transform duration-[12s] delay-0 ease-in-out "
-                src="/src/assets/friedrich.png"
+                src={friedrich}
                 alt=""
               />
             </a>
@@ -423,7 +427,7 @@ function Projects() {
             >
               <img
                 className="w-fit translate-y-0 hover:translate-y-[-90%] transition-transform duration-[12s] delay-0 ease-in-out "
-                src="/src/assets/stark.png"
+                src={stark}
                 alt=""
               />
             </a>
@@ -538,7 +542,7 @@ function Projects() {
             >
               <img
                 className="w-fit translate-y-0 hover:translate-y-[-90%] transition-transform duration-[12s] delay-0 ease-in-out "
-                src="/src/assets/bonsai.png"
+                src={bonsai}
                 alt=""
               />
             </a>
